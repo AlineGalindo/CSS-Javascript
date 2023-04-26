@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+    <script src="Email.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>¿Sera que realmente pueda validar una direccion de email?</h1>
+    <div id='ocultar-y-mostrar'>Pulsa el boton para ver si realmente podemos desaparecerlo</div><br>
+    <button id='ocultar-mostrar'><i class="fas fa-bars"></i>¿Magia?</button><br>
+    <form>
+        <br><label for="user-email">Email: </label>
+        <input type="email" id="user-email" name="userEmail" />
+        <input type="submit" value="Validalo" onclick="return validateEmail()" />
+    </form>
+</body>
+
+</html>
